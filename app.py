@@ -1928,38 +1928,28 @@ Naver Directions `trafast`
 
 
 # ============================================================
+# ============================================================
 # 17. Hero
 # ============================================================
 
 st.markdown(
     """
-    <div class="hero">
+<div class="hero">
+<div class="hero-title">
+🚁 닥터헬기 이송수단 의사결정지원시스템
+</div>
 
-        <div class="hero-title">
-            🚁 닥터헬기 이송수단 의사결정지원시스템
-        </div>
+<div class="hero-sub">
+사고 위치를 선택하면 실시간 도로상황과
+헬기 출동시간의 불확실성을 함께 고려하여
+<b>구급차와 닥터헬기 중 기대 이송시간이 더 짧은 수단</b>을 제안합니다.
+</div>
 
-        <div class="hero-sub">
-            사고 위치를 선택하면 실시간 도로상황과
-            헬기 출동시간의 불확실성을 함께 고려하여
-            <b>구급차와 닥터헬기 중 기대 이송시간이
-            더 짧은 수단</b>을 제안합니다.
-        </div>
-
-        <span class="badge">
-            ① 사고 위치 선택
-        </span>
-
-        <span class="badge">
-            ② 181개 인계점 분석
-        </span>
-
-        <span class="badge">
-            ③ 이송수단 추천
-        </span>
-
-    </div>
-    """,
+<span class="badge">① 사고 위치 선택</span>
+<span class="badge">② 181개 인계점 분석</span>
+<span class="badge">③ 이송수단 추천</span>
+</div>
+""",
     unsafe_allow_html=True,
 )
 
